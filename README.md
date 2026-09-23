@@ -4,6 +4,8 @@
 静的な HTML / CSS / JavaScript のみで構成しており、フォルダごとサーバーに置けばそのまま公開できます。
 
 - 作成日: 2026-09-23
+- 公開 URL（GitHub Pages）: https://sugaharahiroaki.github.io/yasaibatake-site/
+- リポジトリ: https://github.com/Sugaharahiroaki/yasaibatake-site （main ブランチに push すると数分で公開サイトが更新されます）
 - 店名の表記: 熊本県の直売所データベース・Yahoo!マップ・南関町の資料はいずれも **ひらがなの「やさい畑」** で登録されていたため、サイト内もこの表記に統一しています（「野菜畑」に変える場合は各ページの文言を置換してください）。
 
 ## ページ構成
