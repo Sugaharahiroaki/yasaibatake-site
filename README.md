@@ -17,12 +17,12 @@
 | `shop.html` | お店案内。取り扱い品／店内ギャラリー／設備／ご来店の前に／営業案内・地図 |
 | `css/style.css` | スタイル一式 |
 | `js/main.js` | スクロール演出・季節タブ・写真の自動表示など |
-| `images/` | 写真を入れるフォルダ（現在は空） |
+| `images/` | 写真（現在は Pexels のイメージ写真。実際の写真に差し替え可） |
 
 ## 写真の入れ方
 
-写真スペースは、いまは点線枠の「写真が入ります」という表示になっています。
-**`images/` フォルダに下記のファイル名で画像を置くだけで、自動的に写真に切り替わります**（HTMLの編集は不要です）。
+現在は、商用利用可・帰属表示不要の [Pexels](https://www.pexels.com/ja-jp/license/) のイメージ写真を仮で入れています（出典は下の一覧）。
+**`images/` の同じファイル名で上書きするだけで、実際の写真に差し替わります**（HTMLの編集は不要です）。ファイルを削除すると点線枠の「写真が入ります」表示に戻ります。
 
 | ファイル名 | 使う場所 | 推奨の向き・比率 |
 | --- | --- | --- |
@@ -38,6 +38,41 @@
 
 - ファイル名が違う写真を使いたいときは、HTML 内の `<img src="images/…">` を書き換えてください。
 - `.jpg` 以外（`.png` / `.webp`）を使う場合も、`src` の拡張子を合わせれば同じように表示されます。
+
+### 仮写真の出典（Pexels）
+
+Pexels License（商用利用可・帰属表示不要・改変可）。フッターに「写真：Pexels（イメージ写真です）」と記載しています。
+実店舗の写真ではないため、正式公開前に実際の写真へ差し替えることを推奨します。
+
+| ファイル | 出典 | 撮影者 |
+| --- | --- | --- |
+| `hero-01.jpg` | [pexels.com/photo/35196015](https://www.pexels.com/photo/35196015/) | Macrolingo LLC |
+| `about-01.jpg` | [pexels.com/photo/19891021](https://www.pexels.com/photo/19891021/) | Markus Winkler |
+| `about-02.jpg` | [pexels.com/photo/5529591](https://www.pexels.com/photo/5529591/) | Zen Chung |
+| `season-spring.jpg` | [pexels.com/photo/33003603](https://www.pexels.com/photo/33003603/) | Eren Alkis |
+| `season-summer.jpg` | [pexels.com/photo/5451692](https://www.pexels.com/photo/5451692/) | Nicolae Holbea |
+| `season-autumn.jpg` | [pexels.com/photo/13594137](https://www.pexels.com/photo/13594137/) | Mitsuki Sawa |
+| `season-winter.jpg` | [pexels.com/photo/19689767](https://www.pexels.com/photo/19689767/) | Nishantan Eja |
+| `farmer-01.jpg` | [pexels.com/photo/16824439](https://www.pexels.com/photo/16824439/) | chente8888 |
+| `farmer-02.jpg` | [pexels.com/photo/36108066](https://www.pexels.com/photo/36108066/) | Alex Grandidier |
+| `farmer-03.jpg` | [pexels.com/photo/35113272](https://www.pexels.com/photo/35113272/) | Photo55 |
+| `farmer-04.jpg` | [pexels.com/photo/6877065](https://www.pexels.com/photo/6877065/) | — |
+| `farmer-05.jpg` | [pexels.com/photo/1268101](https://www.pexels.com/photo/1268101/) | Markus Spiske |
+| `farmer-06.jpg` | [pexels.com/photo/28102059](https://www.pexels.com/photo/28102059/) | Gio Spigo |
+| `item-vegetables.jpg` | [pexels.com/photo/18816215](https://www.pexels.com/photo/18816215/) | Cheng |
+| `item-rice.jpg` | [pexels.com/photo/28488757](https://www.pexels.com/photo/28488757/) | Himasha Weerasinghe |
+| `item-seedlings.jpg` | [pexels.com/photo/12901832](https://www.pexels.com/photo/12901832/) | Prabahar Ravichandran |
+| `item-processed.jpg` | [pexels.com/photo/14363801](https://www.pexels.com/photo/14363801/) | Busranur Aydin |
+| `item-bread.jpg` | [pexels.com/photo/6966616](https://www.pexels.com/photo/6966616/) | Lucas Mendes |
+| `item-eatin.jpg` | [pexels.com/photo/8854185](https://www.pexels.com/photo/8854185/) | introspectivedsgn |
+| `shop-exterior.jpg` | [pexels.com/photo/26839569](https://www.pexels.com/photo/26839569/) | Sarah O'Shea |
+| `shop-01.jpg` | [pexels.com/photo/9005793](https://www.pexels.com/photo/9005793/) | tea w1lemon |
+| `shop-02.jpg` | [pexels.com/photo/12955819](https://www.pexels.com/photo/12955819/) | FreeStockPro |
+| `shop-03.jpg` | [pexels.com/photo/38384704](https://www.pexels.com/photo/38384704/) | Surya Travel |
+| `shop-04.jpg` | [pexels.com/photo/7728128](https://www.pexels.com/photo/7728128/) | Greta Hoffman |
+| `shop-05.jpg` | [pexels.com/photo/38164887](https://www.pexels.com/photo/38164887/) | solyartphotos |
+| `shop-06.jpg` | [pexels.com/photo/10428139](https://www.pexels.com/photo/10428139/) | Fatih Erden |
+| `eatin-01.jpg` | [pexels.com/photo/5491049](https://www.pexels.com/photo/5491049/) | Rachel Claire |
 
 ## 掲載している店舗情報と出典
 
@@ -59,6 +94,7 @@
 - **旬の野菜の一覧**: 熊本県北部の一般的な旬をもとにした目安です。実際の出荷品目に合わせて調整してください。
 - **取り扱い品の説明**: 「漬物や味噌、お菓子」などの具体例は一般的な直売所をイメージした例です。
 - **駐車場の台数・支払い方法**: 情報がないため掲載していません。
+- **写真**: すべて Pexels のイメージ写真（店舗・生産者本人ではありません）。実際の写真に差し替えてください。
 
 ## デザインメモ
 
